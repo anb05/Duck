@@ -30,7 +30,7 @@ $mallard->display();
 $mallard->performQuack();
 $mallard->performFly();
 
-var_dump($mallard);
+//var_dump($mallard);
 
 echo "<br><br><h1>Реактивная утка</h1>\n";
 
