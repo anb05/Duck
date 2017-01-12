@@ -18,6 +18,9 @@
 
 namespace Models;
 
+use Contracts\FlyBehavior;
+use Contracts\QuackBehavior;
+
 /**
  * Abstract class for create Ducks
  * Содзаём имитатор утки
@@ -96,6 +99,30 @@ abstract class Duck
     public function swim()
     {
         echo "<br>Все, без исключения, утки плавают, даже муляжи.<br>\n";
+    }
+
+    /**
+     * Метод для изменения полёта утки
+     *
+     * @param FlyBehavior $fly set behaviors fly
+     *
+     * @return FlyBehavior
+     */
+    public function setFlyBehavior(FlyBehavior $fly)
+    {
+        $this->flyBehavior = $fly;
+    }
+
+    /**
+     * Метод для изменения голосовых свойств утки
+     *
+     * @param QuackBehavior $quack set behaviors quack
+     *
+     * @return QuackBehavior
+     */
+    public function setQuackBehavior(QuackBehavior $quack)
+    {
+        $this->quackBehavior = $quack;
     }
 }
 
