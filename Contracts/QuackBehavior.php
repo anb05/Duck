@@ -7,7 +7,7 @@
  *
  * @category Learn
  *
- * @package Duc
+ * @package Duck
  *
  * @author A.Bovkun <a.n.bovkn@gmail.com>
  *
@@ -23,7 +23,7 @@ namespace Contracts;
  *
  * @category Learn
  *
- * @package Duc
+ * @package Duck
  *
  * @author A.Bovkun <a.n.bovkn@gmail.com>
  *

@@ -7,7 +7,7 @@
  *
  * @category Learn
  *
- * @package Duc
+ * @package Duck
  *
  * @author A.Bovkun <a.n.bovkn@gmail.com>
  *
@@ -18,12 +18,14 @@
 
 namespace Models;
 
+use Contracts\FlyBehavior;
+
 /**
  * Класс реализующий интерфейс FlyBehavior
  *
  * @category Learn
  *
- * @package Duc
+ * @package Duck
  *
  * @author A.Bovkun <a.n.bovkn@gmail.com>
  *
@@ -32,12 +34,12 @@ namespace Models;
  * @link http://localhos/index.php Изучаем паттерны
  */
 
-class FlyWithWings implements QuackBehavior
+class FlyWithWings implements FlyBehavior
 {
     /**
      * Функция описывающая полет утки
      *
-     * @return mixed
+     * @return void
      */
     public function fly()
     {

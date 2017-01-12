@@ -3,11 +3,13 @@
 /**
  * Interfece FlyBehavior 
  *
+ * Интерфейс предназначен для описания типа полёта утки
+ *
  * PHP version 7.0.1
  *
  * @category Learn
  *
- * @package Duc
+ * @package Duck
  *
  * @author A.Bovkun <a.n.bovkn@gmail.com>
  *
@@ -23,7 +25,7 @@ namespace Contracts;
  *
  * @category Learn
  *
- * @package Duc
+ * @package Duck
  *
  * @author A.Bovkun <a.n.bovkn@gmail.com>
  *

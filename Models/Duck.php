@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Class Duc 
+ * Class Duck 
  *
  * PHP version 7.0.1
  *
  * @category Learn
  *
- * @package Duc
+ * @package Duck
  *
  * @author A.Bovkun <a.n.bovkn@gmail.com>
  *
@@ -20,10 +20,11 @@ namespace Models;
 
 /**
  * Abstract class for create Ducks
+ * Содзаём имитатор утки
  *
  * @category Learn
  *
- * @package Duc
+ * @package Duck
  *
  * @author A.Bovkun <a.n.bovkn@gmail.com>
  *
@@ -32,7 +33,7 @@ namespace Models;
  * @link http://localhos/index.php Изучаем паттерны
  */
 
-abstract class DucK
+abstract class Duck
 {
     /**
      * Объект типа полета утки
@@ -51,7 +52,17 @@ abstract class DucK
     protected $quackBehavior;
 
     /**
-     * Абстрактная функция
+     * Конструктор класса
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        // пока пустой
+    }
+
+    /**
+     * Абстрактная функция отображения данных
      *
      * @return void
      */
@@ -84,10 +95,7 @@ abstract class DucK
      */
     public function swim()
     {
-        echo "<br>
-            Все без исключения утки плавают,
-            даже муляжи.
-            <br>\n";
+        echo "<br>Все, без исключения, утки плавают, даже муляжи.<br>\n";
     }
 }
 

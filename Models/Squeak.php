@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Class FlyNoWay 
+ * Class Squeak
  *
  * PHP version 7.0.1
  *
@@ -18,10 +18,10 @@
 
 namespace Models;
 
-use Contracts\FlyBehavior;
+use Contracts\QuackBehavior;
 
 /**
- * Класс реализующий интерфейс FlyBehavior
+ * Класс для кряканья резиновой утки
  *
  * @category Learn
  *
@@ -34,16 +34,17 @@ use Contracts\FlyBehavior;
  * @link http://localhos/index.php Изучаем паттерны
  */
 
-class FlyNoWay implements FlyBehavior
+class Squeak implements QuackBehavior
 {
     /**
-     * Функция описывающая полет утки
+     * Кряканье резиновой утки
+     * Звуки издающие искуственной уткой
      *
      * @return void
      */
-    public function fly()
+    public function quack()
     {
-        echo "<br>Это не летающая утка!!!<br>\n";
+        echo "<br>Писк!!!<br>\n";
     }
 }
 
