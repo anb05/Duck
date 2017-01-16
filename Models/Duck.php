@@ -9,11 +9,11 @@
  *
  * @package Duck
  *
- * @author A.Bovkun <a.n.bovkn@gmail.com>
+ * @author anb05 <alexandr05@list.ru>
  *
  * @license MIT <mit@example.com>
  *
- * @link http://localhos/index.php Изучаем паттерны
+ * @link https://github.com/anb05/Duck.git
  */ 
 
 namespace Models;
@@ -29,11 +29,11 @@ use Contracts\QuackBehavior;
  *
  * @package Duck
  *
- * @author A.Bovkun <a.n.bovkn@gmail.com>
+ * @author anb05 <alexandr05@list.ru>
  *
  * @license MIT <mit@example.com>
  *
- * @link http://localhos/index.php Изучаем паттерны
+ * @link hhttps://github.com/anb05/Duck.git
  */
 
 abstract class Duck
